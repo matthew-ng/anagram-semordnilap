@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Anagram / Semordnilap comparer</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Normalise -->
+        <link href="css/normalise.css" rel="stylesheet" type="text/css" />
+        <!-- Main styles -->
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <!-- Font awesome -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" type='text/css'>
+        <!-- Google fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+
+
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Anagram / Semordnilap comparer</h1>
+            <div class="form-container">
+                <div class="input-container">
+                    <input type="text" id="inputA" placeholder="Enter a word or sentence" class="inputCompare" />
+                    <a href="#" class="dictionary-chk" title="Check on Dictionary.com"><span class="fa fa-book errspan"></span></a>
+                </div>
+
+                <div class="input-container">
+                    <input type="text" id="inputB" placeholder="Enter a word or sentence" class="inputCompare" />
+                    <a href="#" class="dictionary-chk" title="Check on Dictionary.com"><span class="fa fa-book errspan"></span></a>
+                </div>
+
+                <div class="message-container">
+                    <p class="differences"></p>
+                    <div class="anagram">Anagram</div>
+                    <div class="semordnilap">Semordnilap</div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+    </body>
+</html>

@@ -1,0 +1,115 @@
+body {
+    background: #fff;
+    font-family: "Montserrat";
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Inputs */
+.input-container {
+    position: relative;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px 15px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: none;
+    background-color: #E9F3F5;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* Dictionary */
+.fa-book {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+/* Messages */
+.message-container {
+    opacity: 0;
+    height: 0;
+    transition-duration: 0.2s;
+}
+
+.anagram,
+.semordnilap {
+    width: 100%;
+    background: #f8f8f8;
+    line-height: 60px;
+    transition-duration: 0.2s;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.success,
+.error {
+    opacity: 1;
+    transition-duration: 0.2s;
+}
+
+.success:before,
+.error:before {
+    display: inline-block;
+    width: 60px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+/* Success */
+.success {
+    color: #1DB670;
+}
+
+.success:before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    background: #1DB670;
+    transition-duration: 0.2s;
+}
+
+/* Error */
+.error {
+    color: #F92929;
+}
+
+.error:before {
+    content: "\f00d";
+    font-family: "FontAwesome";
+    background: #F92929;
+    transition-duration: 0.2s;
+}
+
+
+/* Hide and show */
+.show {
+    opacity: 1;
+    height: auto;
+    transition-duration: 0.2s;
+}
+
+.hide {
+    opacity: 0;
+    height: 0;
+    transition-duration: 0.2s;
+}
